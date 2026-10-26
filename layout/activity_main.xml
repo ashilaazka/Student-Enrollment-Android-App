@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF6FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Enrollment"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#5E4775"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter student information below"
+            android:textSize="14sp"
+            android:textColor="#75677D"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#403647" />
+
+        <EditText
+            android:id="@+id/etStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student Name"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student ID"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#403647" />
+
+        <EditText
+            android:id="@+id/etStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student ID"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_marginBottom="12dp" />
+
+        <CheckBox
+            android:id="@+id/cbEnrolled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Has Enrolled"
+            android:textColor="#403647"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD STUDENT" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW STUDENTS"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>
